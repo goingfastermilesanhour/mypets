@@ -73,7 +73,13 @@ main button {
   padding: 15px 32px;
   img { margin: 15px 15px 15px 0px}
 }
-
+.pictureContainer svg{
+  position: absolute;
+}
+.pictureContainer img{
+  position: relative;
+  opacity: 50
+}
   
 #Mapping {
   padding: 1rem;
